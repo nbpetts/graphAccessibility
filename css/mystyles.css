@@ -1,0 +1,18 @@
+/* Show/hide additional labels based on open/closed state. */
+		details > summary > .open,
+		details[open] > summary > .closed {
+			display: none;
+		}
+		details[open] > summary > .open {
+			display: inline;
+		}
+
+		/* These last two rules are part of the polyfill for challenged browsers. */
+		details > .detailsbody {
+			display: none;
+		}
+		details[open] > .detailsbody {
+			display: block;
+			font-size: 0.9;
+			color: #ddd;
+		}
