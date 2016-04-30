@@ -1,1 +1,18 @@
 
+
+
+
+@-moz-document url-prefix() {
+  details:before {
+    content: '\25BA';
+    float: left;
+  }
+
+  details[class="open"]:before {
+    content: '\25BC';
+  }
+
+  summary {
+    right: 17px;
+  }
+}
