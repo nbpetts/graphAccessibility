@@ -21,8 +21,8 @@
 </head>
 
 <body>
-  <a href="#content" class="sr-only" title="Skip to content">Skip to content</a>
-    <nav class="navbar navbar-default">
+  <a href="#main" class="sr-only" title="Skip to content">Skip to content</a>
+    <nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -50,7 +50,7 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <article class="container">
+    <article class="container" role="main" id="main">
         <section class="row">
             <div class="col-xs-12">
                 <h1>Teens, Technology and Friendships</h1>
@@ -79,13 +79,13 @@
             </div>
             <figure class="col-xs-12 col-sm-6">
                 <figcaption>
-                    <details class="">
+                    <details class="" id="GraphDescription">
                         <summary>
                             Accessible Graph Description
 
                         </summary>
                         <section>
-                          <a name="top"></a>
+
                             <h2>Overview</h2>
                             <p class="sr-only">
                                 This section contains a summary of the graph, the graph and article author, sample size, timeframe of data represented, and the use of the graph in the article.
@@ -227,7 +227,7 @@
                                 End of Data Table
                             </p>
                         </section>
-                        <a href="#top">Go back to the top of the Graph Description</a>
+                        <a href="#GraphDescription">Go back to the top of the Graph Description</a>
                     </details>
                 </figcaption>
                 <img class="img-responsive" src="images/2015-08-06_teens-and-friendships_0-02.png" alt="A graph of teen texting habits, see the Accessible Graph Description for an accessible version"  />

@@ -21,8 +21,8 @@
 </head>
 
 <body>
-    <a href="#content" class="sr-only" title="Skip to content">Skip to content</a>
-    <nav class="navbar navbar-default">
+    <a href="#main" class="sr-only" title="Skip to content">Skip to content</a>
+    <nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -50,7 +50,7 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <article class="container">
+    <article class="container" role="main" id="main">
         <section class="row">
             <div class="col-xs-12">
                 <h1>Home Broadband use has Plateaued</h1>
@@ -63,7 +63,7 @@
 
             <figure class="col-xs-12 col-sm-6">
                 <figcaption>
-                    <details class="">
+                    <details class="" id="GraphDescription">
                         <summary>
                             Accessible Graph Description
 
@@ -243,7 +243,7 @@
                                 End of Data Table
                             </p>
                         </section>
-                        <a href="#top">Go back to the top of the Graph Description</a>
+                        <a href="#GraphDescription">Go back to the top of the Graph Description</a>
                     </details>
                 </figcaption>
                 <img class="img-responsive" src="images/2015-08-06_teens-and-friendships_0-02.png" alt="A graph of Home Broadband use, see the Accessible Graph Description for an accessible version" />
