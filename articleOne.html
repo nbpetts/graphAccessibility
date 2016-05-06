@@ -21,7 +21,7 @@
 </head>
 
 <body>
-  <a href="#main" class="sr-only" title="Skip to content">Skip to content</a>
+  <a href="#main" class="sr-only" >Skip to content</a>
     <nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -50,7 +50,7 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <article class="container" role="main" id="main">
+    <article class="container" role="main" id="main" name="main" tabindex="0">
         <section class="row">
             <div class="col-xs-12">
                 <h1>Teens, Technology and Friendships</h1>
@@ -79,7 +79,7 @@
             </div>
             <figure class="col-xs-12 col-sm-6">
                 <figcaption>
-                    <details class="" id="GraphDescription">
+                    <details class="" id="GraphDescription" tabindex="0">
                         <summary>
                             Accessible Graph Description
 
@@ -142,11 +142,9 @@
                         </section>
                         <section>
                             <h2>Data Table</h2>
-                            <p class="sr-only">
-                                The following is a table of the data used in the graph
-                            </p>
 
-                            <table class="table " summary="These are the data associated with the graph of of teen texting habits.">
+
+                            <table class="table " >
                                 <caption>These are the data associated with the graph of teen texting habits.</caption>
                                 <tr>
 
