@@ -49,7 +49,11 @@
         <!-- /.container-fluid -->
     </nav>
 
+<<<<<<< HEAD
     <article class="container" role="main" >
+=======
+    <article class="container" role="main" id="main" tabindex="1">
+>>>>>>> 18a4df363051b0f393870acb868da86fd68a2f10
         <section class="row">
             <div class="col-xs-12">
                 <h1 id="main">The Demographics of Device Ownership</h1>
@@ -84,7 +88,11 @@
                         <p class="sr-only">This description of the graph will include an overview, purpose, highlights, and a table of the data.This description of the graph will include an overview, purpose, highlights, and a table of the data.</p>
                         <section>
 
+<<<<<<< HEAD
                             <h2 id="GraphDescription">Overview</h2>
+=======
+                            <h2>Overview</h2>
+>>>>>>> 18a4df363051b0f393870acb868da86fd68a2f10
                             <p class="sr-only">
                                 This section contains a summary of the graph, the graph and article author, sample size, timeframe of data represented, and the use of the graph in the article.
                             </p>

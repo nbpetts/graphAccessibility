@@ -21,7 +21,11 @@
 </head>
 
 <body>
+<<<<<<< HEAD
   <a href="#main" class="sr-only sr-only-focusable skipLink" title="Skip to content">Skip to content</a>
+=======
+  <a href="#main" class="sr-only" >Skip to content</a>
+>>>>>>> 18a4df363051b0f393870acb868da86fd68a2f10
     <nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -50,7 +54,11 @@
         <!-- /.container-fluid -->
     </nav>
 
+<<<<<<< HEAD
     <article class="container" role="main" >
+=======
+    <article class="container" role="main" id="main" name="main" tabindex="0">
+>>>>>>> 18a4df363051b0f393870acb868da86fd68a2f10
         <section class="row">
             <div class="col-xs-12">
                 <h1 id="main">Teens, Technology and Friendships</h1>
@@ -79,7 +87,11 @@
             </div>
             <figure class="col-xs-12 col-sm-6">
                 <figcaption>
+<<<<<<< HEAD
                     <details class="" >
+=======
+                    <details class="" id="GraphDescription" tabindex="0">
+>>>>>>> 18a4df363051b0f393870acb868da86fd68a2f10
                         <summary>
                             Accessible Graph Description
 
